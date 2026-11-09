@@ -19,7 +19,7 @@ function inc(){
 function res(){
      let update = 0;
     c.textContent = update;
-    c.style.color = "black";
+    
 }
 
 
@@ -27,6 +27,6 @@ function dec(){
     let privious = c.textContent;
     let update = parseInt(privious)-1;
     c.textContent = update;
-    c.style.color = "black";
+    
 }
 
