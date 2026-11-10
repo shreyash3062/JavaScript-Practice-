@@ -3,7 +3,7 @@
 A number guessing game built with HTML, CSS, JavaScript and Bootstrap. The computer picks a random number between 1 and 100, and the player finds it using "too high" and "too low" hints.
 
 ## Live Demo
-**https://YOUR-GUESSING-GAME-NAME.onrender.com**
+**https://guessing-game-fuw8.onrender.com**
 
 ## How to Play
 1. Type a number between 1 and 100 in the box.
@@ -38,14 +38,6 @@ Guessing Game/
 ├── style.css
 └── README.md
 ```
-
-## Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/shreyash3062/JavaScript-Practice-.git
-   ```
-2. Open the `Guessing Game` folder.
-3. Open `index.html` in your browser.
 
 ## Author
 [shreyash3062](https://github.com/shreyash3062)
