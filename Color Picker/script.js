@@ -1,4 +1,26 @@
-function click() {
-    document.getelementById("button1").style.BackgroundColor = "#e0e0e0";
-    document.getelementById("button2").style.BackgroundColor = "#6fcf97";
-}
+let button1 = document.getElementById("button1");
+let button2 = document.getElementById("button2");
+let button3 = document.getElementById("button3");
+let button4 = document.getElementById("button4");
+
+let selectedColorHexCode = document.getElementById("selectedColorHexCode");
+
+button1.onclick = function() {
+    document.body.style.backgroundColor = "#e0e0e0";
+    selectedColorHexCode.textContent = "#e0e0e0";
+};
+
+button2.onclick = function() {
+    document.body.style.backgroundColor = "#6fcf97";
+    selectedColorHexCode.textContent = "#6fcf97";
+};
+
+button3.onclick = function() {
+    document.body.style.backgroundColor = "#56ccf2";
+    selectedColorHexCode.textContent = "#56ccf2";
+};
+
+button4.onclick = function() {
+    document.body.style.backgroundColor = "#bb6bd9";
+    selectedColorHexCode.textContent = "#bb6bd9";
+};

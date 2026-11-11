@@ -2,11 +2,7 @@
 
 A collection of small applications I built while learning JavaScript.
 
-## Projects
 
-| Project | Description | Live Demo | Code |
-|---|---|---|---|
-| Counter App | Increase, decrease and reset a number using DOM manipulation | [Live Demo](https://YOUR-APP-NAME.onrender.com) | [Source](./Counter%20App) |
 
 ## Counter App
 
